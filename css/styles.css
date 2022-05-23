@@ -802,7 +802,7 @@ padding-left: 700px;
         font-size: 30px;
     }
     .logo {
-        padding-left: 120px;
+        padding-left: 130px;
         padding-top: 20px;
     }
     .lotos {
@@ -812,7 +812,8 @@ padding-left: 700px;
         display: contents;
     }
     .nav {
-        padding-left: 100px;
+        text-align: center;
+        padding-left: 120px;
         font-size: 29px;
     }
     .phones {
@@ -924,7 +925,7 @@ padding-left: 700px;
     .clinic-list {
         display: list-item;
         padding-bottom: 20PX;
-        margin-left: 1px;
+        margin-left: 20px;
     }
     .clinic-item:hover,
     .clinic-item:hover {
