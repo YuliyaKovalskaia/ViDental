@@ -1,0 +1,348 @@
+*{
+    padding: 0;margin: 0;border: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+:root{
+    --logo-letter:#B49167;
+    --logo-bgc:#133133;
+    --light-letter:#c4b29b;
+    --main-title:#3a2104;
+
+}
+
+.page{
+    font-family: 'Playfair Display', serif; 
+    color: var(--logo-bgc);
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+.h1,.h2,.h3,.h4{
+    letter-spacing: 0.05em;
+}
+/* header */
+.header{
+    background-color: var(--logo-bgc);  
+}
+.navigation{
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 150px;
+}
+.logo-text{
+    color: var(--logo-letter);
+    font-family: 'Cinzel', serif;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+} 
+.nav{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: var(--light-letter);
+    transition: 0.5s;
+    width: 170px;
+    height: 20px;
+
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 15px;
+    text-align: center;
+}
+.phones{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.phone {
+    color: var(--light-letter);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    opacity: 0.8;
+    transition: 0.5s;
+
+}
+.nav:hover,
+.nav:focus,
+.phone:hover,
+.phone:focus{
+    color: #7e5b31;
+    transform: scale(1.2);
+}
+.nav-list{
+    display: flex;
+}
+
+/* about us */
+.about-us{
+    background-color: var(--logo-bgc);
+}
+.intro{
+    background-image: url('../images/nature.jpg');
+    width: 1800px;
+    margin: 0 auto;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main-title{
+    color: var(--main-title);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    padding-top: 200px ;
+    padding-left: 800px;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+.about-description{
+    width: 1800px;
+    margin: 0 auto;
+}
+.about-title{
+    color: var(--light-letter);
+
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.text{
+    color: var(--logo-letter);
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+/* services */
+.service-list{
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+    height: 900px;
+}
+.service-title{
+    color: var(--main-title);
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.service-name{
+    color: var(--main-title);
+    font-size: 24px;
+    line-height: 1.3px;
+    padding-top:10px ;
+    padding-bottom: 25px;
+}
+.container{
+    color: var(--logo-letter);
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.container:hover,
+.container:focus{
+    color: var(--main-title);
+}
+.service-item{
+    display: inline-flexbox  ;
+    text-align: center;
+}
+.service-item:hover,
+.service-item:focus{
+    transform: scale(1.1);
+    transition: 1s;
+    color: var(--main-title);
+}
+.service-one{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 200px;
+    margin-right: 55px;
+}
+.service-two{
+    position: relative;
+    margin-top: 35px;
+    margin-right: 55px;
+}
+.service-three{
+    position: relative;
+    margin-top: 35px;
+}
+.service-four{
+    position: relative;
+    top: 320px;
+    right: 1160px;
+}
+.service-five{
+    position: relative;
+    top: 320px ;
+    right: 1125px;
+}
+.service-six{
+    position: relative;
+    top: 320px;
+     right: 1070px;
+}
+.service-seven{
+    position: relative;
+    top: 605px;
+    right: 2210px;
+}
+.service-eight{
+position: relative;
+top: 605px;
+right: 2155px;
+}
+.service-nine{
+position: relative;
+top: 605px;
+right: 2100px;
+}
+/* clinic */
+.clinic-section{
+    width: 1600px;
+    margin: 0 auto;
+}
+.clinic{
+    background-color: var(--logo-bgc);
+}
+.clinic-title{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 60px;
+    color: var(--light-letter);
+}
+.clinic-list{
+    display: flex;  
+    padding-bottom: 80PX; 
+    margin-left: -10px;
+}
+.clinic-item{
+    padding-right: 5px;
+}
+.clinic-item:hover,
+.clinic-item:hover{
+    transform: scale(1.5);
+    transition: 0.9s;
+
+}
+/* stuff */
+.stuff{
+    background-color:#f5f5f5  ;
+
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.stuff-title{
+color: var(--main-title);
+padding-top: 50px;
+padding-left: 750px;
+padding-bottom: 30px;
+}
+.stuff-list{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+    padding-bottom: 70px;
+
+}
+.stuff-items{
+    background-color: #ffff;
+    display: block;
+    width: 300px ;
+    height: 440px;
+    margin-right: 215px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+}
+.stuff-items:hover,
+.stuff-items:focus{
+transform: scale(1.5);
+    transition: 1s;
+    color: var(--main-title);
+}
+.names{
+    color: var(--main-title);
+    font-size: 20px;
+    text-align: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text-stuff{
+    color: var(--main-title);
+    padding-left: 10px;
+    padding-right: 20px;
+}
+/* our works */
+.works{
+    width: 1600px;
+        margin: 0 auto;
+}
+/* footer */
+.footer{
+    height: 150px;
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.footer-bg{
+    background-color: var(--logo-bgc);
+    
+}
+.address{
+    color: var(--light-letter);
+    font-style: normal;
+    padding-bottom: 20px;
+    margin-right: 510px;
+}
+.logo-down{
+    margin-right: 500px;
+    margin-top: 20px;
+}
+.address:hover,
+.address:focus{
+    color: var(--logo-letter);
+
+}
+.time{
+    color: var(--light-letter);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.1;
+    letter-spacing: 0.07em;
+    opacity: 0.6;
+}
+.phone-down{
+    padding-top: 20px;
+    font-size: larger;
+}
+.to-call{
+    color: var(--light-letter);
+}
