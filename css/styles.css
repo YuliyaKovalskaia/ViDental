@@ -58,9 +58,9 @@
     padding-left: 15px;
     text-align: center;
 }
-.phones{
+.phone-up{
     margin-left: 100px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .phone {
@@ -71,8 +71,8 @@
     letter-spacing: 0.02em;
     opacity: 0.8;
     transition: 0.5s;
-
 }
+
 .nav:hover,
 .nav:focus,
 .phone:hover,
@@ -369,38 +369,43 @@ padding-left: 700px;
 /* header */
     .navigation{
         display: list-item;
+        height: 520px;
     }
-
     .logo-text{
         font-size: 20px; 
     }
 
 .logo {
-    padding-left: 90px;
-    padding-top: 10px;
+    padding-left: 110px;
+    padding-top: 15px;
+    padding-bottom: 0px;
 }
 .lotos{
     width: 100px;
 }
-  .nav-list {
-      display: contents;
-  }
+.nav-list {
+ display: contents;
+}
 
 .nav {
-    padding-left: 50px;
+    padding-left: 70px;
+    margin-bottom: 30px;
 }
 
-.phones {
-    margin-left: 80px;
-    padding-bottom: 10px;
-}
 
+.footer,
+.works,
+.stuff,
+.clinic,
+.services,
+.about-description,
+.intro {
+    width: 320px
+}
 
 /* about us */
 
 .intro {
-    background-image: url('../images/nature.jpg');
-    width: 320px;
     height: 200px;
 }
 
@@ -418,10 +423,6 @@ padding-left: 700px;
     font-size: 25px;
 }
 
-.about-description {
-    width: 320px;
-}
-
 .about-title {
     padding-left: 20px;
     padding-top: 30px;
@@ -435,9 +436,6 @@ padding-left: 700px;
 
 
 /* services */
-.services {
-    width: 320px;
-}
 
 .service-list {
     display: list-item;
@@ -445,11 +443,9 @@ padding-left: 700px;
 }
 
 .service-title {
-    padding-left: 10px;
+    padding-left: 70px;
 
 }
-
-
 
 .container {
     width: 290px;
@@ -461,12 +457,10 @@ padding-left: 700px;
     margin-right: 10px;
 }
 
-
 .service-item {
     display:list-item;
     text-align: center;
 }
-
 
 .service-one {
     position:static;
@@ -481,29 +475,12 @@ padding-left: 700px;
     margin-right: 0px;
   
 }
-
-.service-three {
-    position: static;
-    }
-
-
-.service-four {
-    position: static;
-}
-
-.service-five {
-    position: static;
-}
-
-
-.service-six {
-    position: static;
-}
-
-.service-seven {
-    position: static;
-}
-
+                     
+.service-three ,
+.service-four,
+.service-five,
+.service-six ,
+.service-seven ,
 .service-eight {
     position: static;
 }
@@ -514,10 +491,7 @@ padding-left: 700px;
 }
 
 /* clinic */
-.clinic-section {
-    width: 320px;
 
-}
 .clinic-title {
     padding-top: 50px;
     padding-left: 20px;
@@ -535,9 +509,6 @@ padding-left: 700px;
 }
 
 /* stuff */
-.stuff {
-    width: 320px;
-}
 
 .stuff-title {
     padding-top: 30px;
@@ -559,9 +530,6 @@ padding-left: 700px;
 }
 
 /* our works */
-.works {
-    width: 320px;
-}
 
 .work-title {
     padding-top: 30px;
@@ -572,7 +540,6 @@ padding-left: 700px;
 /* footer */
 .footer {
     height: 300px;
-    width: 320px;
     display: list-item;
     padding-left: 10px;
     padding-top: 30px;
@@ -584,6 +551,9 @@ padding-left: 700px;
     margin-left: 90px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.to-call{
+    padding-bottom: 20px;
 }
 .phone-down {
     padding-top: 20px;
@@ -597,6 +567,7 @@ padding-left: 700px;
     /* header */
     .navigation {
         display: list-item;
+        height: 470px;
     }
     .logo-text {
         font-size: 20px;
@@ -604,26 +575,28 @@ padding-left: 700px;
     .logo {
         padding-left: 120px;
         padding-top: 20px;
+        padding-bottom: 40px;
     }
     .lotos {
         width: 100px;
     }
     .nav-list {
         display: contents;
+        
     }
     .nav {
+        padding-top: 0px;
         padding-left: 90px;
+        margin-bottom: 40px;
     }
-    .phones {
-        margin-left: 120px;
-        padding-bottom: 10px;
+    .phone-up {
+        margin-left: 115px;
     }
 
 
     /* about us */
 
     .intro {
-        background-image: url('../images/nature.jpg');
         width: 360px;
         height: 200px;
     }
@@ -663,7 +636,7 @@ padding-left: 700px;
     }
     .service-title {
         text-align: center;
-        padding-left: 100px;
+        padding-left: 0px;
 
     }
     .container {
@@ -691,21 +664,11 @@ padding-left: 700px;
         margin-right: 0px;
 
     }
-    .service-three {
-        position: static;
-    }
-    .service-four {
-        position: static;
-    }
-    .service-five {
-        position: static;
-    }
-    .service-six {
-        position: static;
-    }
-    .service-seven {
-        position: static;
-    }
+    .service-three,
+    .service-four ,
+    .service-five, 
+    .service-six, 
+    .service-seven, 
     .service-eight {
         position: static;
     }
@@ -783,19 +746,22 @@ padding-left: 700px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .phone-down {
-        padding-top: 20px;
+    .to-call{
+    padding-bottom: 20px;
+
     }
+    
 }
 
 
-/*  */
+/* 420 */
 
 @media(min-width:360px) and (max-width:420px) {
 
     /* header */
     .navigation {
         display: list-item;
+        height: 520px;
     }
     .logo-text {
         font-size: 30px;
@@ -803,6 +769,7 @@ padding-left: 700px;
     .logo {
         padding-left: 130px;
         padding-top: 20px;
+        padding-bottom: 0px;
     }
     .lotos {
         width: 140px;
@@ -814,11 +781,12 @@ padding-left: 700px;
         text-align: center;
         padding-left: 120px;
         font-size: 29px;
+        margin-bottom: 30px;
+        padding-top: 20px;
     }
-    .phones {
+    .phone-up {
         font-size: 25px;
-        margin-left: 130px;
-        padding-bottom: 25px;
+        margin-left: 100px;
     }
 
     .footer,
@@ -832,7 +800,6 @@ padding-left: 700px;
     /* about us */
 
     .intro {
-        background-image: url('../images/nature.jpg');
         height: 220px;
     }
     .main-title {
@@ -924,7 +891,7 @@ padding-left: 700px;
     .clinic-list {
         display: list-item;
         padding-bottom: 20PX;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .clinic-item:hover,
     .clinic-item:hover {
