@@ -240,10 +240,10 @@ right: 2100px;
 .clinic-list{
     display: flex;  
     padding-bottom: 80PX; 
-    margin-left: -10px;
+    margin-left: 30px;
 }
 .clinic-item{
-    padding-right: 5px;
+    padding-right: 35px;
 }
 .clinic-item:hover,
 .clinic-item:hover{
@@ -276,7 +276,7 @@ padding-bottom: 30px;
     background-color: #ffff;
     display: block;
     width: 300px ;
-    height: 440px;
+    height: 540px;
     margin-right: 215px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -501,6 +501,7 @@ padding-left: 700px;
 .clinic-list {
     display: list-item;
     padding-bottom: 20PX;
+    margin-left: 0px;
 }
 .clinic-item:hover,
 .clinic-item:hover {
@@ -690,7 +691,11 @@ padding-left: 700px;
     .clinic-list {
         display: list-item;
         padding-bottom: 20PX;
+        margin-left: -12px;
+        padding-left: 0px;
     }
+    
+
     .clinic-item:hover,
     .clinic-item:hover {
         transform: scale(1);
