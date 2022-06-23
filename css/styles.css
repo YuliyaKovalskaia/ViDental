@@ -432,7 +432,7 @@ padding-left: 700px;
     margin-bottom: 40px;
 }
 .price-name{
-    width: 1500px;
+    width: 1400px;
     background-color:var(--logo-bgc) ;
     color: var(--light-letter);
 
@@ -455,7 +455,7 @@ padding-left: 700px;
     line-height: 1.1;
     letter-spacing : 0.05em;
 
-    width: 1500px;
+    width: 1400px;
     margin-left: 50px;
     padding-left: 50px;
     padding-top: 20px;
